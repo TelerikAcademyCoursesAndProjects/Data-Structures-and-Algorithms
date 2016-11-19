@@ -9,15 +9,8 @@ namespace Task1ReadSequenceOfNumbers
 {
     public class StartUp
     {
-        public static void Main()
+        internal static List<int> ReadingConsoleInput(string input)
         {
-
-            BigInteger avarageOfNumbers = 0;
-        }
-
-        internal List<int> ReadingConsoleInput()
-        {
-            var input = Console.ReadLine();
             var listOfNumbers = new List<int>();
 
             while (input != string.Empty)
@@ -28,12 +21,26 @@ namespace Task1ReadSequenceOfNumbers
 
             return listOfNumbers;
         }
-        internal BigInteger SumingNumbers(List<int> listOfNumbers)
+        internal static BigInteger FindSumOfNumbers(List<int> listOfNumbers)
         {
-            BigInteger sumOfNumbers = 0;
+            var sumOfNumbers = 0;
             sumOfNumbers = listOfNumbers.Sum();
 
             return sumOfNumbers;
+        }
+
+        internal static double FindAvarageOfNumbers(List<int> listOfNumbers)
+        {
+            var avagrageOfNumbers = listOfNumbers.Average();
+
+            return avagrageOfNumbers;
+        }
+
+        public static void Main()
+        {
+            var listOfNumbers = ReadingConsoleInput(Console.ReadLine());
+            var sumOfNumbers = FindSumOfNumbers(listOfNumbers);
+            var avagrageOfNumbers = FindAvarageOfNumbers(listOfNumbers);
         }
     }
 }
