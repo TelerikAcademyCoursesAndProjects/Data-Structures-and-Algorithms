@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Task1ReadSequenceOfNumbers
 {
@@ -12,10 +10,20 @@ namespace Task1ReadSequenceOfNumbers
         internal static List<int> ReadingConsoleInput(string input)
         {
             var listOfNumbers = new List<int>();
+            bool isNumeric;
+            int correctIntegerNumber;
 
             while (input != string.Empty)
             {
-                listOfNumbers.Add(int.Parse(input));
+                if (isNumeric = int.TryParse(input, out correctIntegerNumber) && correctIntegerNumber > 0)
+                {
+                    listOfNumbers.Add(correctIntegerNumber);
+                }
+                else
+                {
+                    Console.WriteLine("You must enter a positive integer number");
+                }
+
                 input = Console.ReadLine();
             }
 
@@ -31,7 +39,12 @@ namespace Task1ReadSequenceOfNumbers
 
         internal static double FindAvarageOfNumbers(List<int> listOfNumbers)
         {
-            var avagrageOfNumbers = listOfNumbers.Average();
+            var avagrageOfNumbers = 0d;
+
+            if (listOfNumbers.Count > 0)
+            {
+                avagrageOfNumbers = listOfNumbers.Average();
+            }
 
             return avagrageOfNumbers;
         }
@@ -41,6 +54,10 @@ namespace Task1ReadSequenceOfNumbers
             var listOfNumbers = ReadingConsoleInput(Console.ReadLine());
             var sumOfNumbers = FindSumOfNumbers(listOfNumbers);
             var avagrageOfNumbers = FindAvarageOfNumbers(listOfNumbers);
+
+            Console.WriteLine("The numbers in the list are: {0}", string.Join(", ", listOfNumbers));
+            Console.WriteLine("The sum of the numbers in the list is: {0}", sumOfNumbers);
+            Console.WriteLine("The avarage of the numbers in the list is: {0}", avagrageOfNumbers);
         }
     }
 }
