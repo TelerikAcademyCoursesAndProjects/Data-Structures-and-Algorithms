@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Task3SortIntsInIncOrder
 {
@@ -16,13 +14,14 @@ namespace Task3SortIntsInIncOrder
 
             while (input != string.Empty)
             {
-                if (isNumeric = int.TryParse(input, out correctIntegerNumber) && correctIntegerNumber > 0)
+                if (isNumeric = int.TryParse(input, out correctIntegerNumber) &&
+                    (correctIntegerNumber > int.MinValue && correctIntegerNumber < int.MaxValue))
                 {
                     listOfNumbers.Add(correctIntegerNumber);
                 }
                 else
                 {
-                    Console.WriteLine("You must enter a positive integer number");
+                    Console.WriteLine("You must enter a integer number");
                 }
 
                 input = Console.ReadLine();
