@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6RemoveAllOddNums", "Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7OccurenceInArray", "Task7OccurenceInArray\Task7OccurenceInArray.csproj", "{98A45CAE-8CEE-4D3A-A0CF-83BCEBED439C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8MajorantOfArray", "Task8MajorantOfArray\Task8MajorantOfArray.csproj", "{9B9DC58D-6B15-4C70-B7F5-3AB1415690D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{98A45CAE-8CEE-4D3A-A0CF-83BCEBED439C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98A45CAE-8CEE-4D3A-A0CF-83BCEBED439C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98A45CAE-8CEE-4D3A-A0CF-83BCEBED439C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9DC58D-6B15-4C70-B7F5-3AB1415690D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9DC58D-6B15-4C70-B7F5-3AB1415690D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9DC58D-6B15-4C70-B7F5-3AB1415690D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9DC58D-6B15-4C70-B7F5-3AB1415690D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
