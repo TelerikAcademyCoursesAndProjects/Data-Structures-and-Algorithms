@@ -34,7 +34,6 @@ namespace Task2ReverseIntsWithStack
         public static void Main()
         {
             Console.WriteLine("Please enter positive integer numbers, each on a separate line!\nTo reverse the order and print the numbers in the stack double click Enter!");
-
             var stackOfNumbers = ReadingConsoleInput(Console.ReadLine());
 
             Console.WriteLine("The original order in the stack is: {0}", string.Join(", ", stackOfNumbers));
