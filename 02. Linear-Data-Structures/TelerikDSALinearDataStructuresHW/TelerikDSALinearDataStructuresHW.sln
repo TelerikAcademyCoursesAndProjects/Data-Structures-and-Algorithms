@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8MajorantOfArray", "Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task9PrintFirst50Members", "Task9PrintFirst50Members\Task9PrintFirst50Members.csproj", "{5A61E7F6-C8DE-427B-8D2A-06702DC9ADDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task10ShortestSequenceOfOp", "Task10ShortestSequenceOfOp\Task10ShortestSequenceOfOp.csproj", "{F5346255-5440-4123-9C95-B8AB4737E3B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5A61E7F6-C8DE-427B-8D2A-06702DC9ADDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A61E7F6-C8DE-427B-8D2A-06702DC9ADDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A61E7F6-C8DE-427B-8D2A-06702DC9ADDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5346255-5440-4123-9C95-B8AB4737E3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5346255-5440-4123-9C95-B8AB4737E3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5346255-5440-4123-9C95-B8AB4737E3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5346255-5440-4123-9C95-B8AB4737E3B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
