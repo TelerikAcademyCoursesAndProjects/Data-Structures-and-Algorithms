@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11ImplementLikedList", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task12ImplementADTStack", "Task12ImplementADTStack\Task12ImplementADTStack.csproj", "{EC8C2EBF-F19B-484E-9495-0AAA27598CCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13ImplementADTQueue", "Task13ImplementADTQueue\Task13ImplementADTQueue.csproj", "{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{EC8C2EBF-F19B-484E-9495-0AAA27598CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC8C2EBF-F19B-484E-9495-0AAA27598CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC8C2EBF-F19B-484E-9495-0AAA27598CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
