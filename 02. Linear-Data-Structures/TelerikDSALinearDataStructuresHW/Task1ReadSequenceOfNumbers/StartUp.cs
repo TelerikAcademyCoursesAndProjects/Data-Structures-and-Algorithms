@@ -51,6 +51,8 @@ namespace Task1ReadSequenceOfNumbers
 
         public static void Main()
         {
+            Console.WriteLine("Please enter positive integer numbers, each on a separate line!\nTo calculate the sum and avarage of the numbers double click Enter!");
+
             var listOfNumbers = ReadingConsoleInput(Console.ReadLine());
             var sumOfNumbers = FindSumOfNumbers(listOfNumbers);
             var avagrageOfNumbers = FindAvarageOfNumbers(listOfNumbers);
