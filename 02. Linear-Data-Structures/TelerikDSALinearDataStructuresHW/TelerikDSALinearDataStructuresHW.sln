@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task12ImplementADTStack", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13ImplementADTQueue", "Task13ImplementADTQueue\Task13ImplementADTQueue.csproj", "{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task14Labyrinth", "Task14Labyrinth\Task14Labyrinth.csproj", "{9E108258-D0B6-433C-A5D1-D586E9EC58AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92DE7452-7BED-4C57-AA0A-3AD9ED4BF986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E108258-D0B6-433C-A5D1-D586E9EC58AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E108258-D0B6-433C-A5D1-D586E9EC58AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E108258-D0B6-433C-A5D1-D586E9EC58AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E108258-D0B6-433C-A5D1-D586E9EC58AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
