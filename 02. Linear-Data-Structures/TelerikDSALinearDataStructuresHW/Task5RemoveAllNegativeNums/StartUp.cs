@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Task4FindTheLongestSubseq
+namespace Task5RemoveAllNegativeNums
 {
     public class StartUp
     {
@@ -51,11 +51,13 @@ namespace Task4FindTheLongestSubseq
         {
             Console.WriteLine("Enter integer numbers on a single line separated by comma (,)");
             var sequenceOfNumbers = Console.ReadLine().Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
-            var longestSubsequence = FindLongestSubsequence(sequenceOfNumbers);
+            var sequenceOfPositiveNumbers = sequenceOfNumbers.Where(n => n > 0).ToList();
+            var longestSubsequence = FindLongestSubsequence(sequenceOfPositiveNumbers);
 
             Console.WriteLine("The sequence of numbers is: {0}", string.Join(", ", sequenceOfNumbers));
+            Console.WriteLine("The sequence of positive numbers is: {0}", string.Join(", ", sequenceOfPositiveNumbers));
 
-            Console.WriteLine("The longest subsequence of numbers is: {0}", string.Join(", ", longestSubsequence));
+            Console.WriteLine("The longest subsequence of positive numbers is: {0}", string.Join(", ", longestSubsequence));
         }
     }
 }
