@@ -19,7 +19,9 @@ namespace _01.NNestedLoops
                 for (int i = 0; i < n; i++)
                 {
                     array[index] = i + 1;
+                    Console.WriteLine("Kopaem nadolo {0}",i);
                     NestetLoopsWhitRecursion(index + 1);
+                    Console.WriteLine("Vra6tame se nagore {0}",i);
                 }
             }
         }

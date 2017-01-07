@@ -1,4 +1,4 @@
-﻿namespace SortingHomework
+﻿namespace Algorithms
 {
     using System;
     using System.Collections.Generic;

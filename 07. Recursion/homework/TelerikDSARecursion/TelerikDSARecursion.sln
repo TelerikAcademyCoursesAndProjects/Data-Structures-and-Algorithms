@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.LargestConnectedArea", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.The8QueensProblem", "12.The8QueensProblem\12.The8QueensProblem.csproj", "{01E3C808-D9DE-4FFB-991C-C36DFBB0FCDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingRecursion", "TestingRecursion\TestingRecursion.csproj", "{FA216AB4-227A-4523-A82B-36366F1CAF2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{01E3C808-D9DE-4FFB-991C-C36DFBB0FCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E3C808-D9DE-4FFB-991C-C36DFBB0FCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E3C808-D9DE-4FFB-991C-C36DFBB0FCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA216AB4-227A-4523-A82B-36366F1CAF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA216AB4-227A-4523-A82B-36366F1CAF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA216AB4-227A-4523-A82B-36366F1CAF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA216AB4-227A-4523-A82B-36366F1CAF2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿namespace SortingHomework
+﻿namespace Algorithms
 {
     using System;
     using System.Collections.Generic;
@@ -14,35 +14,37 @@
 
         public SortableCollection(IEnumerable<T> items)
         {
+            if (items == null)
+            {
+                throw new ArgumentNullException("Collection cannot be null.");
+            }
+
             this.items = new List<T>(items);
         }
 
         public IList<T> Items
         {
-            get
-            {
-                return this.items;
-            }
+            get { return this.items; }
         }
 
         public void Sort(ISorter<T> sorter)
         {
-            sorter.Sort(this.items);
+            sorter.Sort(this.Items);
         }
 
-        public bool LinearSearch(T item)
+        public int LinearSearch(T item)
         {
-            throw new NotImplementedException();
+            return this.Items.LinearSearch(item);
         }
 
-        public bool BinarySearch(T item)
+        public int BinarySearch(T item)
         {
-            throw new NotImplementedException();
+            return this.Items.BinarySearch(item);
         }
 
         public void Shuffle()
         {
-            throw new NotImplementedException();
+            this.Items.Shuffle();
         }
 
         public void PrintAllItemsOnConsole()
@@ -59,7 +61,7 @@
                 }
             }
 
-            Console.WriteLine();
+            Console.WriteLine(Environment.NewLine);
         }
     }
 }
